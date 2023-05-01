@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="/assets/CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/Img/logo.png" width="90" height="70">
+            <div class="title">
+                <h1>Dw Travels</h1>
+                <h4>Around the world</h4>
+            </div>
+        </div>
+        <div class="nav">
+            <nav class="navbar">
+                <a class="active" href="accueil.HTML">Accueil</a>
+                <a href="destination.HTML">Destinations</a>
+                <a href="hotels.HTML">Hotels</a>
+                <a href="tours.HTML">Tours</a>
+                <a href="about.HTML">About Us</a>
+            </nav>
+            <a class="login" href="login.HTML">
+                <button class="btnLogin">Login</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="text">
+            <h1>Exploring the world !</h1>
+            <p>Welcome to our website! We are thrilled to have you here and can't wait to help you plan your next
+                adventure. With our team of destination specialists, we are committed to creating unforgettable travel
+                experiences tailored to your interests and preferences. Take a look around our site and don't hesitate
+                to contact us with any questions. Let's start planning your dream trip today!</p>
+        </div>
+        <form>
+            <fieldset class="wrapper">
+                <legend><b>Flight</b></legend>
+                <div>
+                    <div class="input-box">
+                        <label>From :</label>
+                        <input type="text" size="10">
+                    </div>
+                    <div class="input-box">
+                        <label>To :</label>
+                        <input type="text" size="10">
+                    </div>
+                </div>
+                <div>
+                    <div class="input-box">
+                        <label>Depart :</label>
+                        <input type="datetime-local">
+                    </div>
+                    <div class="input-box">
+                        <label>Return :</label>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+                <div class="search">
+                    <label>Audits :</label>
+                    <select>
+                        <option selected="selected">1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                    <input class="btnLogin" type="submit" value="Search"></input>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

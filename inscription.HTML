@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../assets/CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/Img/logo.png" width="90" height="70">
+            <div class="title">
+                <h1>Dw Travels</h1>
+                <h4>Around the world</h4>
+            </div>
+        </div>
+        <div class="nav">
+            <nav class="navbar">
+                <a class="active" href="accueil.HTML">Accueil</a>
+                <a href="destination.HTML">Destinations</a>
+                <a href="hotels.HTML">Hotels</a>
+                <a href="tours.HTML">Tours</a>
+                <a href="about.HTML">About Us</a>
+            </nav>
+            <a class="login" href="login.HTML">
+                <button class="btnLogin">Login</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <form class="form" method="post">
+            <fieldset class="wrapper inscription">
+                <legend> <b>Inscription</b></legend>
+                <div class="inscription-inputs">
+                    <div class="inscription-persoinfo">
+                        <div class="input-box">
+                            <label>First Name :</label>
+                            <input type="text" size="10" required>
+                        </div>
+                        <div class="input-box">
+                            <label>Last Name :</label>
+                            <input type="text" size="10" required>
+                        </div>
+                        <div class="search">
+                            <label>Gender :</label>
+                            <select class="select-width">
+                                <option selected="selected">Not defined</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inscription-persoinfo">
+                        <div class="input-box">
+                            <label>Phone Number :</label>
+                            <input type="tel" size="10" minlength="10" maxlength="10" required>
+                        </div>
+                        <div class="input-box">
+                            <label>Date of birth</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="search">
+                            <label>Willaya :</label>
+                            <select class="select-width">
+                                <option selected="selected">Not defined</option>
+                                <option>01-Adrar</option>
+                                <option>02-Chlef</option>
+                                <option>03-Laghouat</option>
+                                <option>04-Oum El Bouaghi</option>
+                                <option>05-Batna</option>
+                                <option>06-Béjaïa</option>
+                                <option>07-Biskra</option>
+                                <option>08-Béchar</option>
+                                <option>09-Blida</option>
+                                <option>10-Bouira</option>
+                                <option>11-Tamanrasset</option>
+                                <option>12-Tébessa</option>
+                                <option>13-Tlemcen</option>
+                                <option>14-Tiaret</option>
+                                <option>15-Tizi Ouzou</option>
+                                <option>16-Alger</option>
+                                <option>17-Djelfa</option>
+                                <option>18-Jijel</option>
+                                <option>19-Sétif</option>
+                                <option>20-Saïda</option>
+                                <option>21-Skikda</option>
+                                <option>22-Sidi Bel Abbès</option>
+                                <option>23-Annaba</option>
+                                <option>24-Guelma</option>
+                                <option>25-Constantine</option>
+                                <option>26-Médéa</option>
+                                <option>27-Mostaganem</option>
+                                <option>28-M'Sila</option>
+                                <option>29-Mascara</option>
+                                <option>30-Ouargla</option>
+                                <option>31-Oran</option>
+                                <option>32-El Bayadh</option>
+                                <option>33-Illizi</option>
+                                <option>34-Bordj Bou Arreridj</option>
+                                <option>35-Boumerdès</option>
+                                <option>36-El Tarf</option>
+                                <option>37-Tindouf</option>
+                                <option>38-Tissemsilt</option>
+                                <option>39-El Oued </option>
+                                <option>40-Khenchela</option>
+                                <option>41-Souk Ahras</option>
+                                <option>42-Tipaza</option>
+                                <option>43-Mila</option>
+                                <option>44-Delfa</option>
+                                <option>45-Naâma</option>
+                                <option>46-Aïn Témouchent</option>
+                                <option>47-Ghardaïa</option>
+                                <option>48-Relizane</option>
+                                <option>49-Timimoun</option>
+                                <option>50-Bordj Badji Mokhtar</option>
+                                <option>51-Ouled Djellal</option>
+                                <option>52-Béni Abbès</option>
+                                <option>53-In Salah</option>
+                                <option>54-In Guezzam</option>
+                                <option>55-Touggourt</option>
+                                <option>56-Djanet</option>
+                                <option>57-El M'Ghair</option>
+                                <option>58-El Meniaa</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="inscription-adress">
+                    <div class="input-box">
+                        <label>Adress:</label>
+                        <input class="adress-input" type="text" size="40" required>
+                    </div>
+                </div>
+                <div class="input-box"><label>Email :</label>
+                    <input type="email" placeholder="                       @exap.com" required>
+                </div>
+                <div class="inscription-inputs">
+                    <div>
+                        <div class="input-box"><label>Username:</label>
+                            <input type="text" size="10" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-box"> <label>Password:</label>
+                            <input type="password" size="8" minlength="8" maxlength="16" required>
+                        </div>
+                    </div>
+                </div>
+                <input class="btn" type="submit" value="Create"></input>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+
+</html>

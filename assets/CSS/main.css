@@ -1,0 +1,245 @@
+/* General Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background: url(../Img/Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 620px;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+.navbar a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.login {
+    display: block;
+}
+
+.btnLogin {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 15px 40px;
+}
+
+.btnLogin:hover {
+    background: #fff;
+    color: #0775a8;
+    border-color: #0775a8;
+}
+
+/* Home */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0 35px;
+}
+
+.text {
+    width: 35%;
+    text-align: justify;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+input,
+select {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+select {
+    text-align: center;
+}
+
+select option {
+    color: black;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+fieldset {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 350px;
+    padding: 25px;
+}
+
+.wrapper {
+    border: 2px solid #05537747;
+    box-shadow: 0 0 30px #00000080;
+    backdrop-filter: blur(10px);
+}
+
+.input-box {
+    position: relative;
+    height: 30px;
+    border-bottom: 2px solid #a8abb5de;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    color: #a8abb5de;
+}
+
+.search label {
+    color: #a8abb5de;
+}
+
+legend {
+    padding: 0 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search *.btnLogin {
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.search *.btnLogin:hover {
+    color: #0775a8;
+}
+
+/* Inscription */
+.inscription {
+    height: 450px;
+    width: 580px;
+    padding: 25px 50px;
+}
+
+.inscription-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inscription-adress {
+    width: 100%;
+}
+
+.select-width {
+    width: 100px;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: rgba(168, 171, 181, 0.87);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+}
+
+/* About */
