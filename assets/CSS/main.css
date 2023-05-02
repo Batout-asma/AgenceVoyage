@@ -246,7 +246,13 @@ legend {
 
 .header-about {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 130px;
+}
+
+.main-about {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 .main-about h2 {
@@ -263,11 +269,12 @@ legend {
 }
 
 .content section {
-    margin-left: 40px;
-    padding: 15px;
     display: flex;
     align-content: center;
     align-items: center;
+    font-size: 18px;
+    margin-left: 40px;
+    padding: 15px;
 
 }
 
@@ -278,7 +285,7 @@ legend {
 .form-about {
     display: flex;
     width: 300px;
-    margin-top: 200px;
+    margin-top: 20px;
     margin-right: 70px;
     padding: 30px;
     border: #0775a8 solid;
@@ -301,4 +308,25 @@ legend {
 
 .contact-form textarea::placeholder {
     color: #ffF;
+}
+
+.btnLogin-about {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.btnLogin-about:hover {
+    background: #fff;
+    color: #0775a8;
+    border-color: #0775a8;
 }
