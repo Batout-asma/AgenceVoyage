@@ -60,7 +60,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 620px;
+    width: 640px;
 }
 
 .navbar a {
@@ -284,7 +284,7 @@ legend {
 
 .form-about {
     display: flex;
-    width: 300px;
+    width: 301px;
     margin-top: 20px;
     margin-right: 70px;
     padding: 30px;
