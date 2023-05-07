@@ -58,7 +58,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 620px;
+    width: 650px;
 }
 
 .navbar a {
@@ -79,7 +79,7 @@ header {
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform .3s;
+    transition: transform 0.3s;
 }
 
 .navbar a:hover::after {
@@ -127,7 +127,7 @@ main {
     border: 2px solid #05537747;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 30px #00000080;
+    box-shadow: 0 0 50px #00000080;
     display: flex;
     justify-content: center;
     align-items: center;

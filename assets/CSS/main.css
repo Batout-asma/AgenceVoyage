@@ -332,6 +332,103 @@ legend {
 }
 
 /* Tours */
+.tour {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.tour button {
+    margin-top: 15px;
+    padding: 5px;
+    border-color: white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.tour button:hover {
+    background-color: #00000080;
+    color: #0775a8;
+}
+
 .tour h3 {
     margin: 10px 100px;
+}
+
+/* Destinations */
+.main-destinations {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+
+    text-align: center;
+}
+
+.destinations {
+    border: white solid;
+    border-radius: 10px;
+    padding: 20px 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px #00000080;
+}
+
+.main-destinations>div {
+    width: calc(100%/4);
+}
+
+.main-destinations *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+/* Hotels */
+.main-hotels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.filters input {
+    border: 1px solid white;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+}
+
+.filters>* {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.card {
+    position: relative;
+}
+
+.card h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.683);
+    border-radius: 5px;
+
+}
+
+.card img {
+    height: 300px;
+    width: 500px;
 }
