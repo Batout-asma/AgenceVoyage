@@ -330,3 +330,8 @@ legend {
     color: #0775a8;
     border-color: #0775a8;
 }
+
+/* Tours */
+.tour h3 {
+    margin: 10px 100px;
+}
