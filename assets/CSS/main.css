@@ -399,19 +399,29 @@ legend {
 .filters {
     display: flex;
     margin-bottom: 50px;
+    display: flex;
+    border: #000000ae double 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f64fe533;
+    backdrop-filter: blur(20px);
 }
 
 .filters input {
-    border: 1px solid white;
-    width: 150px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    width: 100px;
     height: 30px;
     padding: 10px;
+    margin: 0 10px;
+
 }
 
 .filters>* {
     display: flex;
     flex-direction: column;
     text-align: start;
+
 }
 
 .card {
@@ -423,7 +433,7 @@ legend {
     bottom: 20px;
     right: 20px;
     padding: 7px;
-    background-color: rgba(0, 0, 0, 0.683);
+    background-color: #000000ae;
     border-radius: 5px;
 
 }
