@@ -81,7 +81,7 @@ header {
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform .3s;
+    transition: transform 0.3s;
 }
 
 .navbar a:hover::after {
@@ -441,4 +441,29 @@ legend {
 .card img {
     height: 300px;
     width: 500px;
+}
+
+/* Client */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.profile table,
+.profile th,
+.profile td {
+    border: 0.5px solid;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.profile table {
+    margin-bottom: 10px;
 }
